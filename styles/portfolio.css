@@ -136,5 +136,16 @@ main {
 .info-description {
     color: #757575;
     font-size: 20px;
-    font-weight: bold ;
+    font-weight: bold;
+}
+
+/* What i do section */
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+   
 }
