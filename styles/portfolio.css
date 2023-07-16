@@ -245,11 +245,27 @@ textarea {
 /* Responsive website */
 
 @media screen and (max-width:576px) {
-    .skills-container {
+
+    .skills-container,
+    .resume-container,
+    footer {
         flex-direction: column;
     }
 
     #what-i-do-description {
         padding: 0px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input,
+    textarea {
+        width: 75%;
     }
 }
