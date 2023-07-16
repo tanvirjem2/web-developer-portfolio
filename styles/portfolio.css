@@ -245,7 +245,13 @@ textarea {
 /* Responsive website */
 
 @media screen and (max-width:576px) {
+    .header {
+        background-image: none;
+    }
 
+    nav,
+    nav>ul,
+    .banner,
     .skills-container,
     .resume-container,
     footer,
@@ -253,8 +259,17 @@ textarea {
         flex-direction: column;
     }
 
+    .banner,
     #what-i-do-description {
-        padding: 5px;
+        padding: 20px;
+    }
+
+    nav>ul {
+        gap: 25px;
+    }
+
+    .banner .profile-pic {
+        width: 100%;
     }
 
     footer,
@@ -269,5 +284,9 @@ textarea {
     .contact input,
     textarea {
         width: 75%;
+    }
+
+    .btn-primary {
+        margin-bottom: 15px;
     }
 }
