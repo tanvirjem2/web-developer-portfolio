@@ -248,15 +248,17 @@ textarea {
 
     .skills-container,
     .resume-container,
-    footer {
+    footer,
+    .about-info-container {
         flex-direction: column;
     }
 
     #what-i-do-description {
-        padding: 0px;
+        padding: 5px;
     }
 
-    footer {
+    footer,
+    .about {
         padding: 10px;
     }
 
