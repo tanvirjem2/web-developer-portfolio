@@ -241,3 +241,15 @@ textarea {
     color: #757575;
     width: 100%;
 }
+
+/* Responsive website */
+
+@media screen and (max-width:576px) {
+    .skills-container {
+        flex-direction: column;
+    }
+
+    #what-i-do-description {
+        padding: 0px;
+    }
+}
